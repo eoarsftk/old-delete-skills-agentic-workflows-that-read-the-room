@@ -16,6 +16,7 @@ network:
     - defaults
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     max: 1
@@ -25,10 +26,11 @@ safe-outputs:
 
 Read `notes/mona-notes.md` before making any changes.
 
-Use `web-fetch` to read both of these public sources:
+Use `web-fetch` to read these public sources:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
 Use the GitHub repository tools to read repository guidance or reference files. Do not use the terminal, GitHub CLI, or sandboxed commands for that repository-reading step.
 
