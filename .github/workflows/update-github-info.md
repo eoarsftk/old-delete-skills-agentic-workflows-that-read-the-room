@@ -34,4 +34,5 @@ Use the GitHub repository tools to read repository guidance or reference files. 
 
 Use the information from the notes and the fetched sources to update `site/content/github-info.md`. Make only focused, relevant edits and preserve the existing Markdown structure. Review the resulting diff for accuracy and clarity.
 
-When changes are needed, use the edit tool to modify the file, then use the `create-pull-request` safe output to open one draft pull request for Mona to review. Include a concise summary of the source updates and the resulting content changes in the pull request body. Do not write directly to the default branch. If no update is warranted, do not open a pull request.
+When changes are needed, use the edit tool to modify the file, then use the `create-pull-request` safe output to open one draft pull request for Mona to review. Include a concise summary of the source updates and the resulting content changes in the pull request body. Do not write directly to `main`;
+rely on `safe-outputs` with `create-pull-request`. If no update is warranted, do not open a pull request.
